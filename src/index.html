@@ -1,27 +1,171 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
-  </head>
-  <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
-    <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
-  </body>
-</html>
+  <html lang="es">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+      <title>La Plata</title>
+    </head>
+    <body>
+      <!--Header-->
+      <header class="header">
+        <a href="" class="header__title">La Plata</a>
+
+        <!--Nav-->
+        <nav class="header__nav">
+          <a href="" class="header__nav-link">Punto</a>
+          <a href="" class="header__nav-link">Punto</a>
+          <a href="" class="header__nav-link">Punto</a>
+        </nav>
+      </header>
+
+      <main class="main">
+        <!--Cabecera-->
+        <section class="section section--main">
+          <!--H1-->
+          <h1 class="section__title">Descubre la Vía de la Plata</h1>
+          <p class="section__description">Información de utilidad para peregrinos de la Vía de la Plata</p>
+          <a href="#" class="section__button">Ver información</a>
+        </section>
+
+        <!--Descargas-->
+        <section class="section section--downloads">
+
+          <!--Cabecera-->
+          <div>
+            <h2 class="section__title">Descargas</h2>
+            <p class="section__description">Descripción</p>
+          </div>
+
+          <!--Contenedor de las tarjetas-->
+          <ul class="section__cards">
+
+            <!--Tarjeta 1-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+
+            <!--Tarjeta 2-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+
+            <!--Tarjeta 3-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+
+            <!--Tarjeta 4-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+              
+            <!--Tarjeta 5-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+
+            <!--Tarjeta 6-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!--Recursos-->
+        <section class="section section--downloads">
+
+          <!--Cabecera-->
+          <div>
+            <h2 class="section__title">Recursos</h2>
+            <p class="section__description">Descripción</p>
+          </div>
+
+          <!--Contenedor de las tarjetas-->
+          <ul class="section__cards">
+
+            <!--Tarjeta 1-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+
+            <!--Tarjeta 2-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+
+            <!--Tarjeta 3-->
+            <li class="card section__card">
+              <img src="#" class="card__image" alt="">
+              <!--Textos-->
+              <div class="card__content">
+                <h3 class="card__title">Título de la tarjeta</h3>
+                <p class="card__description">Descargar el mapa oficial</p>
+                <a href="#" class="card__link" aria-label="">Ver más</a>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+
+      <!--Foter-->
+      <footer class="footer">
+        <div>
+          <!--Autor-->
+          <p class="footer__author">Santiago García</p>
+          <!--Fecha-->
+          <p class="footer_date">Diciembre de 2025</p>
+        </div>
+      </footer>
+
+      <script type="module" src="./assets/scripts/main.js"></script>
+    </body>
+  </html>
