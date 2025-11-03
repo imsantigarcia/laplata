@@ -5,18 +5,22 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+      <!--Tipografía-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
       <title>La Plata</title>
     </head>
-    <body>
+    <body class="body">
       <!--Header-->
       <header class="header">
-        <a href="" class="header__title">La Plata</a>
+        <!--Nombre-->
+        <a href="#" class="header__title">La Plata</a>
 
         <!--Nav-->
         <nav class="header__nav">
-          <a href="" class="header__nav-link">Punto</a>
-          <a href="" class="header__nav-link">Punto</a>
-          <a href="" class="header__nav-link">Punto</a>
+          <a href="#" class="header__nav-link">Descargas</a>
+          <a href="#" class="header__nav-link">Recursos</a>
         </nav>
       </header>
 
@@ -30,10 +34,10 @@
         </section>
 
         <!--Descargas-->
-        <section class="section section--downloads">
+        <section class="section section--downloads" id="descargas">
 
           <!--Cabecera-->
-          <div>
+          <di class="section__header">
             <h2 class="section__title">Descargas</h2>
             <p class="section__description">Descripción</p>
           </div>
@@ -109,10 +113,10 @@
         </section>
 
         <!--Recursos-->
-        <section class="section section--downloads">
+        <section class="section section--downloads" id="recursos">
 
           <!--Cabecera-->
-          <div>
+          <div class="section__header">
             <h2 class="section__title">Recursos</h2>
             <p class="section__description">Descripción</p>
           </div>
@@ -158,14 +162,15 @@
 
       <!--Foter-->
       <footer class="footer">
-        <div>
+        <div class="footer__container">
           <!--Autor-->
           <p class="footer__author">Santiago García</p>
           <!--Fecha-->
-          <p class="footer_date">Diciembre de 2025</p>
+          <p class="footer__date">Diciembre de 2025</p>
         </div>
       </footer>
 
+      <!--Scripts-->
       <script type="module" src="./assets/scripts/main.js"></script>
     </body>
   </html>

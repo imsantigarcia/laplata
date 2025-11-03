@@ -1,0 +1,30 @@
+.section--main {
+
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 1rem;
+    background-color:aquamarine;
+
+  .section__title {
+    font-size: 2rem;
+    color: #222;
+  }
+
+  .section__button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: aqua;
+    text-decoration: none;
+    border-radius: 7px;
+    width: max-content;
+    transition: all 0.3s ease;
+
+    &:hover {
+    background-color: antiquewhite;
+  }
+}
+}
