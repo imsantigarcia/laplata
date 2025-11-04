@@ -4,11 +4,17 @@
   padding: 0px;
   margin: 0px;
   font-family: "Inter", sans-serif;
+  box-sizing: border-box;
 }
 
 /* Ancho del main */
 
 .main {
-  width: 1280px;
   margin: auto;
+}
+
+/* Ocultar */
+
+.ocultar {
+  display: none;
 }
