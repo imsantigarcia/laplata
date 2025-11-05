@@ -1,20 +1,26 @@
-@use "../variables";
+@use "../variables" as v;
 
 .header {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 2rem 1.5rem;
-    align-items: center;
-    background-color: get-color("menu-bg");
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 2rem 1.5rem;
+  align-items: center;
+  background-color: v.get-color("azul-propuesta");
 }
 
-.header__title, .header__nav-link {
+.header__title,
+.header__nav-link {
   text-decoration: none;
+  color: v.get-color("amarillo-propuesta"); 
+}
+
+.header__nav-link:hover {
+  text-decoration: underline;
 }
 
 .header__title {
- font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .header__nav {

@@ -1,4 +1,9 @@
-@use "../variables";
+@use "../variables" as v;
+
+.footer {
+    display: flex;
+    flex: 1;
+}
 
 .footer__container {
     display: flex;
@@ -6,5 +11,6 @@
     justify-content: space-between;
     padding: 2rem 1.5rem;
     align-items: center;
-    background-color: get-color("menu-bg");
+    background-color: v.get-color("azul-propuesta");
+    color: v.get-color("blanco");
 }

@@ -1,12 +1,13 @@
-@use "sass:color";
+@use "sass:map";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+$colors: (
+  "azul-propuesta": #0A4BAF,
+  "amarillo-propuesta": #FFD500,
+  "blanco": #ffffff,
+  "primario-boton": #FFD500,
+  "primario-boton-texto": #000
+);
 
-$uoc-masterbrand: #73edff;
-$menu-bg: #000078;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
-
-$mqMinWidth: 420px;
+@function get-color($name) {
+  @return map-get($colors, $name);
+}
