@@ -1,13 +1,29 @@
 @use "sass:map";
 
+
 $colors: (
+  // Colores
   "azul-propuesta": #0A4BAF,
   "amarillo-propuesta": #FFD500,
   "blanco": #ffffff,
   "primario-boton": #FFD500,
-  "primario-boton-texto": #000
+  "primario-boton-texto": #000,
+
+  // Sombras
+  "section-shadow": unquote("rgba(0, 0, 0, 0.1)"),
+  "section-shadow-hover": unquote("rgba(0, 0, 0, 0.15)"),
+  "text-shadow": unquote("2px 2px 4px rgba(0, 0, 0, 0.8)")
 );
+
+
 
 @function get-color($name) {
   @return map-get($colors, $name);
 }
+
+// Función para aclarar un color
+@function lighter($color-name, $amount: 20%) {
+  @return lighten(get-color($color-name), $amount);
+}
+
+

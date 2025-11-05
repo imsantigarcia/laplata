@@ -3,14 +3,15 @@
 .footer {
     display: flex;
     flex: 1;
+    background-color: v.get-color("azul-propuesta");
 }
 
 .footer__container {
     display: flex;
-    width: 100%;
+    width: 1280px;
     justify-content: space-between;
     padding: 2rem 1.5rem;
     align-items: center;
-    background-color: v.get-color("azul-propuesta");
+    margin: 0 auto;
     color: v.get-color("blanco");
 }

@@ -3,25 +3,34 @@
   <html lang="es">
     <head>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width">
       <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <!--Tipografía-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-      <title>La Plata</title>
+      <title>Vía de la Plata</title>
     </head>
     <body class="body">
       <!--Header-->
       <header class="header">
-        <!--Nombre-->
-        <a href="#" class="header__title">La Plata</a>
-
-        <!--Nav-->
-        <nav class="header__nav">
-          <a href="#" class="header__nav-link">Descargas</a>
-          <a href="#" class="header__nav-link">Recursos</a>
-        </nav>
+        <div class="header__container">
+          <!--Nombre del sitio-->
+          <a href="#" class="header__title">La Plata</a>
+          <!--Navegación principal-->
+          <nav class="header__nav">
+            <ul class="header__nav-list">
+              <!--Enlace: Descargas-->
+              <li class="header__nav-item">
+                <a href="#descargas" class="header__nav-link">Descargas</a>
+              </li>
+              <!--Enlace: Recursos-->
+              <li class="header__nav-item">
+                <a href="#recursos" class="header__nav-link">Recursos</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
       </header>
 
       <main class="main">
@@ -34,7 +43,7 @@
         </section>
 
         <!--Descargas-->
-        <section class="section section--downloads" id="descargas">
+        <section class="ocultar ajustar section section--downloads" id="descargas">
 
           <!--Cabecera-->
           <div class="section__header">
@@ -50,8 +59,11 @@
               <img src="#" class="card__image" alt="">
               <!--Textos-->
               <div class="card__content">
+                <!--H3-->
                 <h3 class="card__title">Título de la tarjeta</h3>
-                <p class="card__description">Descargar el mapa oficial</p>
+                <!--Descripción-->
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus mattis magna</p>
+                <!--Botón-->
                 <a href="#" class="card__link" aria-label="">Ver más</a>
               </div>
             </li>
@@ -61,8 +73,11 @@
               <img src="#" class="card__image" alt="">
               <!--Textos-->
               <div class="card__content">
+                <!--H3-->
                 <h3 class="card__title">Título de la tarjeta</h3>
-                <p class="card__description">Descargar el mapa oficial</p>
+                <!--Descripción-->
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus mattis magna</p>
+                <!--Botón-->
                 <a href="#" class="card__link" aria-label="">Ver más</a>
               </div>
             </li>
@@ -72,8 +87,11 @@
               <img src="#" class="card__image" alt="">
               <!--Textos-->
               <div class="card__content">
+                <!--H3-->
                 <h3 class="card__title">Título de la tarjeta</h3>
-                <p class="card__description">Descargar el mapa oficial</p>
+                <!--Descripción-->
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus mattis magna</p>
+                <!--Botón-->
                 <a href="#" class="card__link" aria-label="">Ver más</a>
               </div>
             </li>
@@ -83,18 +101,25 @@
               <img src="#" class="card__image" alt="">
               <!--Textos-->
               <div class="card__content">
+                <!--H3-->
                 <h3 class="card__title">Título de la tarjeta</h3>
-                <p class="card__description">Descargar el mapa oficial</p>
+                <!--Descripción-->
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus mattis magna</p>
+                <!--Botón-->
                 <a href="#" class="card__link" aria-label="">Ver más</a>
               </div>
+            </li>
               
             <!--Tarjeta 5-->
             <li class="card section__card">
               <img src="#" class="card__image" alt="">
               <!--Textos-->
               <div class="card__content">
+                <!--H3-->
                 <h3 class="card__title">Título de la tarjeta</h3>
-                <p class="card__description">Descargar el mapa oficial</p>
+                <!--Descripción-->
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus mattis magna</p>
+                <!--Botón-->
                 <a href="#" class="card__link" aria-label="">Ver más</a>
               </div>
             </li>
@@ -104,8 +129,11 @@
               <img src="#" class="card__image" alt="">
               <!--Textos-->
               <div class="card__content">
+                <!--H3-->
                 <h3 class="card__title">Título de la tarjeta</h3>
-                <p class="card__description">Descargar el mapa oficial</p>
+                <!--Descripción-->
+                <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus mattis magna</p>
+                <!--Botón-->
                 <a href="#" class="card__link" aria-label="">Ver más</a>
               </div>
             </li>
@@ -161,7 +189,7 @@
       </main>
 
       <!--Foter-->
-      <footer class="footer">
+      <footer class="footer ocultar">
         <div class="footer__container">
           <!--Autor-->
           <p class="footer__author">Santiago García</p>
