@@ -3,15 +3,22 @@
 .footer {
     display: flex;
     flex: 1;
-    background-color: v.get-color("azul-propuesta");
+    background: v.get-color("degradado");
 }
 
 .footer__container {
     display: flex;
     width: 1280px;
     justify-content: space-between;
+    font-weight: 300;
     padding: 2rem 1.5rem;
     align-items: center;
     margin: 0 auto;
     color: v.get-color("blanco");
+
+    @media (max-width: 480px) {
+      /* Adaptación a 480px */
+      flex-direction: column;
+      gap: 1rem;
+    }
 }
